@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="#">Link 1</a>
+    <a name="aa">anchor 1</a>
+    <a href="#">Link 2</a>
+    <a name="bb">anchor 2</a>
+    <a href="#">Link 3</a>
+
+    <script>
+        var x = document.getElementsByTagName('a');
+        console.log(x);
+        console.log("------------");
+
+        var y = document.anchors;
+         console.log(y);
+        console.log("------------");
+
+        var z = document.links;
+         console.log(z);
+        console.log("------------");
+    </script>
+</body>
+</html>
