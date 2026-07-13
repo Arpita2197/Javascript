@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        form{
+            border:1px solid black;
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+     <form action="a">
+        <input type="text"><br><br>
+        <input type="password"><br><br>
+        <input type="email"><br><br>
+        <button>Submit</button>
+    </form>
+
+      <hr>
+
+    <form action="a">
+        <input type="text"><br><br>
+
+        <select>
+            <option>A</option>
+             <option>B</option>
+              <option>C</option>
+               <option>D</option>
+                <option selected>E</option>
+        </select>
+
+        <button>click</button>
+    </form>
+
+    <script>
+        var sel = document.forms[1][1];
+
+         console.log(sel);
+         console.log(sel.selectedIndex);
+    </script>
+
+    
+
+</body>
+</html>
