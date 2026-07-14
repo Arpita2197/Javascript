@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1{
+            border:2px solid yellowgreen;
+        }
+
+        #x{
+            color:red;
+        }
+        .aa{
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello1</h1>
+    <h1 class="aa">Hello2</h1>
+    <h1 class="aa">Hello3</h1>
+    <h1 id="x">Hello4</h1>
+    <h1 class="aa">Hello5</h1>
+
+    <script>
+     // var x = document.getElementsByTagName('h1');
+     //var x = document.querySelectorAll('#x');
+     //var x = document.querySelectorAll('.aa');
+     var x = document.querySelectorAll('h1');
+
+        console.log(x);
+    </script>
+</body>
+</html>
